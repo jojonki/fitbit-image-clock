@@ -1,0 +1,22 @@
+{
+  "fitbit": {
+    "appUUID": "a0d968c6-4227-4e45-b039-079c410a6c9e",
+    "appType": "clockface",
+    "appDisplayName": "ImageClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#607d8b",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_internet"
+    ],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "ImageClock"
+      }
+    }
+  }
+}

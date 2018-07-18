@@ -1,0 +1,151 @@
+#battery-container {
+  x: 83%;
+  y: 2%;
+  width: 13%;
+  height: 7%;
+}
+
+#battery-rect {
+  x: 10%;
+  y: 10%;
+  width: 80%;
+  height: 90%;
+  fill: white; 
+  opacity: 0.2;
+}
+
+#battery-icon {
+  fill: #3fc0fc;
+}
+
+#day-back {
+  font-family: "Colfax-Black";
+  fill: white;
+  x: 51%;
+  y: 23%;
+  opacity: 0.9;
+  font-size: 30;
+  text-anchor: middle;
+  text-length: 10;
+}
+
+#day-front {
+  font-family: "Colfax-Black";
+  fill: fb-red;
+  x: 50%;
+  y: 22%;
+  opacity: 0.9;
+  font-size: 30;
+  text-anchor: middle;
+  text-length: 10;
+}
+
+#clock-back {
+  font-family: "Colfax-Black";
+  fill: white;
+  x: 51%;
+  y: 61%;
+  opacity: 0.9;
+  font-size: 120;
+  text-anchor: middle;
+  text-length: 4;
+}
+
+#clock-front {
+  font-family: "Colfax-Black";
+  fill: fb-red;
+  x: 50%;
+  y: 60%;
+  opacity: 0.9;
+  font-size: 120;
+  text-anchor: middle;
+  text-length: 4;
+}
+
+#act-container {
+  x: 0;
+  y: 68%;
+  width: 100%;
+  height: 20%;
+}
+
+#label-bg {
+  x: 0;
+  y: 81%;
+  width: 100%;
+  height: 35%;
+  fill: black;
+  opacity: 0.3;
+}
+
+#step-circle {
+  cx: 20%;
+  cy: 50%;
+  r: 30%;
+  fill: "fb-lime";
+}
+
+#step-icon {
+  x: 44;
+  y: 16;
+  width: 32;
+  height: 32;
+}
+
+#step-num {
+  font-family: "Colfax-Regular";
+  fill: white;
+  x: 20%;
+  y: 110%;
+  text-anchor: middle;
+  font-size: 20;
+  text-length: 6;  
+}
+
+#cal-circle {
+  cx: 50%;
+  cy: 50%;
+  r: 30%;
+  fill: darkorange;
+}
+
+#cal-icon {
+  x: 135;
+  y: 16;
+  width: 32;
+  height: 32;
+}
+
+#cal-num {
+  font-family: "Colfax-Regular";
+  fill: white;
+  x: 50%;
+  y: 110%;
+  font-size: 20;
+  text-length: 6;
+  text-anchor: middle;
+}
+
+#hr-circle {
+  cx: 80%;
+  cy: 50%;
+  r: 30%;
+  fill: deeppink;
+}
+
+#hr-icon {
+  x: 226;
+  y: 17;
+  width: 27;
+  height: 27;
+}
+
+#hr-num {
+  font-family: "Colfax-Regular";
+  fill: white;
+  x: 80%;
+  y: 110%;
+  font-size: 20;
+  text-length: 3;
+  text-anchor: middle;
+}

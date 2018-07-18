@@ -1,0 +1,29 @@
+<svg>
+  <image id="myImage" href=""  width="100%" height="100%" load="sync"/>
+  
+  <svg id="battery-container">
+    <rect id="battery-rect" />
+    <image id="battery-icon" href="images/b/b1g.png" width="100%" height="100%" load="sync"/>
+  </svg>
+  
+  <text id="day-back">--</text>
+  <text id="day-front">--</text>
+  
+  <text id="clock-back">--</text>
+  <text id="clock-front">--</text>
+
+  <svg id="act-container">
+    <rect id="label-bg" />
+    <circle id="step-circle" />
+    <image id="step-icon" href="images/step.png" />
+    <text id="step-num">--</text>
+
+    <circle id="cal-circle" />
+    <image id="cal-icon" href="images/cal.png" />
+    <text id="cal-num">--</text>
+    
+    <circle id="hr-circle" />
+    <image id="hr-icon" href="images/heartb.png" />
+    <text id="hr-num">--</text>
+  </svg>
+</svg>
